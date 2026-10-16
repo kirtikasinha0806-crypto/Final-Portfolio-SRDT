@@ -1,0 +1,147 @@
+
+/* Universal Selector */
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Element Selector */
+
+body {
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+
+
+/* Group Selector */
+
+h1, h2, h3 {
+    color: black;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    background-color: #FCE4EC;
+    padding: 20px;
+}
+
+
+/* Passport Size Photo */
+
+header img {
+    width: 100px;
+    height: 125px;
+}
+
+
+/* Links */
+
+a {
+    color: blue;
+}
+
+
+/* Personal Information */
+
+#personal {
+    background-color: #EDE7F6;
+    padding: 15px;
+}
+
+
+/* Education */
+
+#education {
+    background-color: #E3F2FD;
+    padding: 15px;
+}
+
+
+/* Certificates - No Background Colour */
+
+#certificates {
+    padding: 15px;
+}
+
+
+/* Technical Skills - No Background Colour */
+
+#skills {
+    padding: 15px;
+}
+
+
+/* Projects - No Background Colour */
+
+#projects {
+    padding: 15px;
+}
+
+
+/* Contact */
+
+#contact {
+    background-color: #E3F2FD;
+    padding: 15px;
+}
+
+
+/* Other Sections */
+
+main > section {
+    padding: 15px;
+}
+
+
+/* Contact Form */
+
+#contact-form {
+    background-color: #E3F2FD;
+    padding: 20px;
+}
+
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+
+/* Table Heading */
+
+th {
+    background-color: #F8BBD0;
+    color: black;
+}
+
+
+/* Table Cells */
+
+th, td {
+    border: 1px solid #D8BFD0;
+    padding: 8px;
+}
+
+
+/* Horizontal Line */
+
+hr {
+    border: 1px solid #D8BFD0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #FCE4EC;
+    text-align: center;
+    padding: 10px;
+}

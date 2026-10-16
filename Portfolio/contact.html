@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>Contact Me</h1>
+
+        <p>
+            Feel free to contact me by filling out this form.
+        </p>
+
+    </header>
+
+    <hr>
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <section id="contact-form">
+
+            <h2>Contact Form</h2>
+
+            <form action="act.php">
+
+                <label for="name">Name:</label>
+
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email">
+
+                <br><br>
+
+                Gender:
+
+                <label for="id1">
+                    <input type="radio" name="gender"
+                           value="male" id="id1">
+                    Male
+                </label>
+
+                <label for="id2">
+                    <input type="radio" name="gender"
+                           value="female" id="id2">
+                    Female
+                </label>
+
+                <label for="id3">
+                    <input type="radio" name="gender"
+                           value="others" id="id3">
+                    Others
+                </label>
+
+                <br><br>
+
+                Enter your Subject:
+
+                <label for="id4">
+                    <input type="checkbox" name="subject"
+                           value="dbms" id="id4">
+                    DBMS
+                </label>
+
+                <label for="id5">
+                    <input type="checkbox" name="subject"
+                           value="dsa" id="id5">
+                    DSA
+                </label>
+
+                <label for="id6">
+                    <input type="checkbox" name="subject"
+                           value="maths" id="id6">
+                    Maths
+                </label>
+
+                <br><br>
+
+                <label for="city">Enter your City:</label>
+
+                <select name="city" id="city">
+
+                    <option value="lucknow">Lucknow</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="noida">Noida</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="feedback">Feedback:</label>
+
+                <br>
+
+                <textarea name="feedback" id="feedback"
+                          placeholder="Write something"
+                          rows="5" cols="30"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+                <input type="reset" value="Clear">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            <small>Thank you for visiting my portfolio.</small>
+        </p>
+
+        <a href="index.html">Back to Portfolio</a>
+
+    </footer>
+
+</body>
+
+</html>
